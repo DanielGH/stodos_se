@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Tack för din gåva!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+
+        <link rel="stylesheet" href="http://gpdonate.eu/staticmedia/donations_assets/css/main.css">
+
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body class="donationSuccess">
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="http://www.greenpeace.org/sweden/se/"><img src="http://gpdonate.eu/staticmedia/donations_assets/img/logo.gif" /></a>
+                    <span class="brand-sub">Stöd oss</span>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="span6 box">
+                    <div class="shadow left hidden-tablet hidden-phone"></div>
+                    <div class="tab-content">
+                        <div class="thankyou inner">
+                            <h1 class="big">Tack för din gåva!</h1>
+                            <img class="image" src="http://gpdonate.eu/staticmedia/donations_assets/img/bgs/sides/tack.jpg" />
+                            <p style="font-size:14px;">Varmt tack för att du vill stödja vårt arbete via autogiro. Inom en vecka kommer du att få en blankett som du kan fylla i och sända till oss.</p>
+                        </div>
+                    </div>
+                    <div class="shadow right hidden-tablet hidden-phone"></div>
+                </div>
+                <div class="span6 box right">
+                    <div class="shadow left hidden-tablet hidden-phone"></div>
+                    <div class="thankyou inner">
+                        <div class="text">
+                            <img class="image" src="http://gpdonate.eu/staticmedia/donations_assets/img/globe.png" /><br />
+                            <span class="big">Ditt stöd är ovärdeligt, uppmana dina vänner att göra detsamma!</span>
+                            <div class="buttons">
+                                <button class="btn btn-large btn-long btn-facebook" onclick="window.location.href='http://www.facebook.com/sharer.php?u=http://www.greenpeace.org/sweden/se/Stod-oss/gava/'"><img src="http://gpdonate.eu/staticmedia/donations_assets/img/ico_fb.png" />Dela på Facebook</button><br />
+                                <button class="btn btn-large btn-long btn-twitter" onclick="window.location.href='http://twitter.com/share?text=Din%20gåva%20gör%20skillnad&url=http://www.greenpeace.org/sweden/se/Stod-oss/gava/'"><img src="http://gpdonate.eu/staticmedia/donations_assets/img/ico_twitter.png" />Dela på Twitter</button><br />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow right hidden-tablet hidden-phone"></div>
+               </div>
+               <div class="clearfix"></div>
+            </div>
+             <div class="push"></div>
+            <div class="clearfix"></div>
+        </div> <!-- /container -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="span6">
+                        <div class="inner left">
+                            <img class="padlock" src="http://gpdonate.eu/staticmedia/donations_assets/img/padlock.png" />
+                            <img class="logo" src="http://gpdonate.eu/staticmedia/donations_assets/img/90logo.png" />
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="row">
+                            <div class="span6">
+                                <ul class="nav nav-pills">
+                                    <li><a href="http://www.greenpeace.org/sweden/se/Stod-oss/Givarservice/">Kontakta Oss</a></li>
+                                    <li><a href="http://www.greenpeace.org/sweden/se/footer-links/privacy-policy/">Säkerhetspolicy</a></li>
+                                </ul>
+                            </div>
+                            <div class="span6">
+                                <div class="copy">
+                                    <p>Copyright © 2013 Greenpeace</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/vendor/bootstrap.min.js"></script>
+        
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/jqBootstrapValidation.js"></script>
+
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/main.js"></script>
+        
+  	<script type="text/javascript" src="http://gpdonate.eu/staticmedia/energyRevolution/js/backstretch.js"></script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42969384-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </body>
+</html>
