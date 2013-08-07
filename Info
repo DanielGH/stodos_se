@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Din information | Gåva | Greenpeace Sverige</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width" />
+
+
+        <link rel="stylesheet" href="http://gpdonate.eu/staticmedia/donations_assets/css/main.css" />
+
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body class="enterinfo">
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="http://www.greenpeace.org/sweden/se/"><img src="http://gpdonate.eu/staticmedia/donations_assets/img/logo.gif" /></a>
+                    <span class="brand-sub">Stöd oss</span>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="span6 box">
+                    <div class="shadow left hidden-tablet hidden-phone"></div>
+                    <div class="inner tabs">
+                        <ul class="nav nav-tabs" id="subTab">
+
+
+                          <li class="active" id="manadTab"><a href="#manadsgivare" data-toggle="tab">Bli månadsgivare</a><div class="arrow-down"></div></li>
+                          <li class="active" id="giftTab"><a href="#gava" data-toggle="tab">Ge en gåva</a><div class="arrow-down"></div></li>
+
+                          <li class="hidden-phone hidden-tablet pull-right"><p class="summa">Summa: </p></li>
+                        </ul>
+                    </div>
+                    <div class="hidden-desktop amountToDonate">
+                        <div class="inner">
+                            <p class="summa">Summa: </p>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div id="gava" class="inner enterinfo">
+                            <h1 class="big">Din information</h1>
+                            <div class="row-fluid">
+                                <div class="span12">
+
+                                
+                                    <form id="donation-form" action="http://greenpeace.cc/payex/se/2013_redirect.php" method="post">
+                                    
+                                    <!-- hidden fields go here -->
+                                    <div id="hidden_fields_donate_form">
+                                    <input type="hidden" name="country" id="hidden_country" value="SE" />
+                                    </div>
+                                      <fieldset>
+                                        <div class="controls-row">
+                                            <div class="control-group forename pull-left">
+                                                <p>Förnamn</p>
+                                                <input type="text" name="name" placeholder="" required />
+                                                <div class="ico success"></div>
+                                                <div class="ico warning"></div>
+                                                <div class="ico error"></div>
+                                            </div>
+                                            <div class="control-group surname pull-left">
+                                                <p>Efternamn</p>
+                                                <input type="text" name="lname" placeholder="" required />
+                                                <div class="ico success"></div>
+                                                <div class="ico warning"></div>
+                                                <div class="ico error"></div>
+                                            </div>
+                                        </div>
+                                            <div class="controls controls-row">
+                                                <p>Adress</p>
+                                                <div class="control-group street" style="display: inline;">
+                                                    <input class="street" name="address" type="text" placeholder="Gatuadress" required />
+                                                    <div class="ico success"></div>
+                                                    <div class="ico warning"></div>
+                                                    <div class="ico error"></div>
+                                                </div>
+                                                <div class="control-group zipcode" style="display: inline;">
+                                                    <input class="zipcode" name="zip" type="text" data-validation-regex-regex="^[0-9]{3,20}$" placeholder="Postnummer" required />
+                                                    <div class="ico success"></div>
+                                                    <div class="ico warning"></div>
+                                                    <div class="ico error"></div>
+                                                </div>
+                                                <div class="control-group city" style="display: inline;">
+                                                    <input class="city" name="city" type="text" placeholder="Ort" required />
+                                                    <div class="ico success"></div>
+                                                    <div class="ico warning"></div>
+                                                    <div class="ico error"></div>
+                                                </div>
+<!--                                                <select class="country required">
+                                                  <option>Land</option>
+                                                </select>-->
+                                            </div>
+                                        <div class="controls controls-row">
+                                            <div class="control-group email pull-left">
+                                                <p>E-post</p>
+                                                <input class="email" name="email" type="email" placeholder="name@domain.com" required />
+                                                <div class="ico success"></div>
+                                                <div class="ico warning"></div>
+                                                <div class="ico error"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="controls controls-row">
+                                            <div class="control-group phone pull-left">
+                                                <p>Telefon</p>
+                                                <input class="phone" name="phone" type="text" placeholder="" />
+                                            </div>
+                                            <div class="checkbox_parent pull-left">
+                                                <label class="checkbox">
+                                                  <input type="checkbox" name="greenpeace_contact_me" value="Ja" /> Jag vill ha information från Greenpeace.
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <button type="submit" class="btn btn-gp btn-gp-special">Nästa  <i class="icon-arrow-right icon-white"></i></button>
+                                      </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow right hidden-phone"></div>
+                </div>
+                <div class="span6 box right">
+                    <div class="shadow left hidden-tablet hidden-phone"></div>
+                    <div class="inner">
+                        <div class="image_info">
+
+                        </div>
+                        <div class="text">
+                            <h1 class="big">Ditt stöd är viktigt</h1>
+                            <p>Greenpeace är en oberoende organisation och tar inte emot bidrag från stater, politiska partier eller företag. Ditt stöd är mycket viktigt för oss. Din gåva gör skillnad!</p>
+                        </div>
+                    </div>
+                    <div class="shadow right hidden-tablet hidden-phone"></div>
+               </div>
+               <div class="clearfix"></div>
+            </div>
+             <div class="push"></div>
+            <div class="clearfix"></div>
+        </div> <!-- /container -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="span6">
+                        <div class="inner left">
+                            <img class="padlock" src="http://gpdonate.eu/staticmedia/donations_assets/img/padlock.png" />
+                            <img class="logo" src="http://gpdonate.eu/staticmedia/donations_assets/img/90logo.png" />
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="row">
+                            <div class="span6">
+                                <ul class="nav nav-pills">
+                                    <li><a href="http://www.greenpeace.org/sweden/se/Stod-oss/Givarservice/">Kontakta Oss</a></li>
+                                    <li><a href="http://www.greenpeace.org/sweden/se/footer-links/privacy-policy/">Säkerhetspolicy</a></li>
+                                </ul>
+                            </div>
+                            <div class="span6">
+                                <div class="copy">
+                                    <p>Copyright © 2013 Greenpeace</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/vendor/bootstrap.min.js"></script>
+        
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/jqBootstrapValidation.js"></script>
+
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/main.js"></script>
+
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/enterinfo.js"></script>        
+        
+        
+  	<script type="text/javascript" src="http://gpdonate.eu/staticmedia/energyRevolution/js/backstretch.js"></script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42969384-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </body>
+</html>
