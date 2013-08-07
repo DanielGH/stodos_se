@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Gåva | Greenpeace Sverige</title>
+
+<meta name="keywords" content="greenpeace, gåva, månadsgivare, bidrag"/>
+<meta name="description" content="Greenpeace existerar för att vår sköra planet förtjänar en röst. Människor som Du gör det möjligt för oss att granska, dokumentera, driva kampanjer och påverka för en hållbar balans mellan människa och miljö jorden runt."/>
+
+
+<meta property="og:title" content="Stöd Greenpeace"/>
+<meta property="og:site_name" content="Greenpeace Sverige"/>
+<meta property="og:url" content="http://www.greenpeace.org/sweden/se/stod-oss/gava/"/>
+<meta property="og:description" content="Greenpeace existerar för att vår sköra planet förtjänar en röst. Människor som Du gör det möjligt för oss att granska, dokumentera, driva kampanjer och påverka för en hållbar balans mellan människa och miljö jorden runt."/>
+
+<meta property="og:image" content="http://gpdonate.eu/staticmedia/donations_assets/img/bgs/sides/mantilg.jpg"/>
+
+<meta property="og:image" content="http://gpdonate.eu/staticmedia/donations_assets/img/bgs/sides/info.jpg"/>
+
+<meta property="og:image" content="http://gpdonate.eu/staticmedia/donations_assets/img/bgs/sides/tack.jpg"/>
+
+
+        <meta name="viewport" content="width=device-width" />
+
+
+        <link rel="stylesheet" href="http://gpdonate.eu/staticmedia/donations_assets/css/main.css" />
+
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+
+<script>
+
+$(function () {
+    var list_slideshow = $("#monthly_list"),
+        listItems = list_slideshow.children('li'),
+        listLen = listItems.length,
+        i = 0,
+        changeList = function () {
+            listItems.eq(i).fadeOut(1000, function () {
+                i += 1;
+                if (i === listLen) {
+                    i = 0;
+                }
+                listItems.eq(i).fadeIn(1000);
+            });
+        };
+    listItems.not(':first').hide();
+    setInterval(changeList, 8000);
+});
+</script>
+                
+    </head>
+    <body class="start">
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="http://www.greenpeace.org/sweden/se/"><img src="http://gpdonate.eu/staticmedia/donations_assets/img/logo.gif" /></a>
+                    <span class="brand-sub">Stöd oss</span>
+                      </div>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="span6 box">
+                    <div class="shadow left hidden-phone"></div>
+                    <div class="inner tabs">
+                        <ul class="nav nav-tabs" id="typeTab">
+                          <li><a href="#manadsgivare" data-toggle="tab">Bli månadsgivare</a><div class="arrow-down"></div></li>
+                          <li><a href="#gava" data-toggle="tab">Ge en gåva</a><div class="arrow-down"></div></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div id="manadsgivare" class="tab-pane active inner">
+                            <h1 class="big">Jag vill bli månadsgivare och bidra med:</h1>
+
+  							<form action="http://www.greenpeace.org/sweden/se/Stod-oss/Gava/info/" method="get">
+                            
+                            
+                              <fieldset>
+                                <div class="control-group options">
+                                    <label class="radio inline">
+                                      <input type="hidden" name="view" id="manadOptionsRadiosview" id="gavaPaymentOptions9" class="control" value="DDM" />
+                                      <input type="radio" name="price" id="manadOptionsRadios1" class="control9" value="100" checked>
+                                      100,-
+                                    </label>
+                                    <label class="radio inline">
+                                      <input type="radio" name="price" id="manadOptionsRadios2" class="control9" value="500">
+                                      500,-
+                                    </label>
+                                    <label class="radio inline">
+                                      <input type="radio" name="price" id="manadOptionsRadios3" class="control9" value="1000">
+                                      1000,-
+                                    </label>
+                                </div>
+                                <div class="control-group options">
+                                  <input type="radio" name="price" id="manadCustom" class="control9" value="custom">
+                                  <input type="number" name="customPrice" min="50" step="50" id="manadCustomDonation" placeholder="Eget belopp..." disabled>
+                                </div>
+                                <p>Du kan även skriva ut och skicka in en <a href="http://www.greenpeace.org/sweden/Global/sweden/greenpeace/openspace/autogiro.pdf" target="_blank">autogiroanmälan här</a>.</p>
+                                <button type="submit" class="btn btn-gp">Nästa  <i class="icon-arrow-right icon-white"></i></button>
+                              </fieldset>
+                            </form>
+                        </div>
+                        <div id="gava" class="tab-pane inner">
+                            <h1 class="big">Jag vill bidra med:</h1>
+                            <form action="http://www.greenpeace.org/sweden/se/Stod-oss/Gava/info/" method="get">
+                              <fieldset>
+                                <div class="control-group options">
+                                    <label class="radio inline">
+                                      <input type="radio" name="price" id="gavaOptionsRadios1" class="control" value="100" checked="" />
+                                      100,-
+                                    </label>
+                                    <label class="radio inline">
+                                      <input type="radio" name="price" id="gavaOptionsRadios2" class="control" value="500" />
+                                      500,-
+                                    </label>
+                                    <label class="radio inline">
+                                      <input type="radio" name="price" id="gavaOptionsRadios3" class="control" value="1000" />
+                                      1000,-
+                                    </label>
+                                </div>
+                                <div class="control-group options">
+                                  <input type="radio" name="price" id="giftCustom" class="control" value="custom" />
+                                  <input type="number" name="customPrice" min="50" step="50" id="gavaCustomDonation" placeholder="Eget belopp..." disabled="" />
+                                </div>
+
+                                <div class="control-group options">
+                                    <label class="radio inline">
+                                      <input type="radio" name="view" id="gavaPaymentOptions1" class="control" value="CC" checked="" />
+                                      Bankkort/Betalkort
+                                    </label>
+                                    <label class="radio inline">
+                                      <input type="radio" name="view" id="gavaPaymentOptions2" class="control" value="DD" />
+                                      Internetbank
+                                    </label>
+                                </div>
+                                
+<p>Du kan även ge en gåva direkt till vårt&nbsp;<br /><strong>Postgiro: 901240-2</strong>&nbsp;eller&nbsp;<strong>Bankgiro: 901-2402</strong>.<br></p>
+
+                                <button type="submit" class="btn btn-gp btn-gp-special">Nästa  <i class="icon-arrow-right icon-white"></i></button>
+                              </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="shadow right hidden-phone"></div>
+                </div>
+                <div class="span6 box right">
+                    <div class="shadow left hidden-phone"></div>
+                    <div class="inner">
+                        <div class="image">
+
+                        </div>
+                        <div class="text">
+                            <h1 class="big" style="font-weight:100 !important;">Ditt bidrag gör skillnad</h1>
+                           
+                            <div id="monthly_message">
+							<p style="font-weight:100 !important;">Våra senaste framgångar:</p>
+                            <ul id="monthly_list">
+                            <li>Efter 10 år av intensiva kampanjer och förhandlingar förbinder sig den asiatiska pappersjätten APP att sluta skövla den ovärderliga regnskogen i Indonesien</li>
+                            <li style="display:none">Med en överväldigande majoritet röstar Europaparlamentet igenom ett förslag för att reformera den europeiska fiskeripolitiken. En seger för Europas hårt utsatta fiskebestånd.</li>
+                            <li style="display:none">Modeföretaget Benetton åtar sig att eliminera utsläpp av farliga kemikalier i hela sin globala produktionskedja till år 2020 efter påtryckningar från Greenpeace kampanj för att avgifta modeindustrin.</li></ul>
+                            </div>
+							<p style="position:absolute; bottom:24px; right:36px;"><a href="http://www.greenpeace.org/sweden/se/om-oss/Greenpeace-framgangar1/" target="_blank" style="color: #FFF !important; font-size:14px;">Klicka här för att läsa mer &gt;&gt;</a></p>                            
+
+                        </div>
+                    </div>
+                    <div class="shadow right hidden-phone"></div>
+               </div>
+            </div>
+             <div class="push"></div>
+        </div> <!-- /container -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="span6">
+                        <div class="inner left">
+                            <img class="padlock" src="http://gpdonate.eu/staticmedia/donations_assets/img/padlock.png" />
+                            <img class="logo" src="http://gpdonate.eu/staticmedia/donations_assets/img/90logo.png" />
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="row">
+                            <div class="span6">
+                                <ul class="nav nav-pills">
+                                    <li><a href="http://www.greenpeace.org/sweden/se/Stod-oss/Givarservice/">Kontakta Oss</a></li>
+                                    <li><a href="http://www.greenpeace.org/sweden/se/footer-links/privacy-policy/">Säkerhetspolicy</a></li>
+                                </ul>
+                            </div>
+                            <div class="span6">
+                                <div class="copy">
+                                    <p>Copyright © 2013 Greenpeace</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </footer>
+
+
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/vendor/bootstrap.min.js"></script>
+        
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/jqBootstrapValidation.js"></script>
+
+        <script src="http://gpdonate.eu/staticmedia/donations_assets/js/main.js"></script>
+        
+		<script type="text/javascript" src="http://gpdonate.eu/staticmedia/energyRevolution/js/backstretch.js"></script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43029687-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </body>
+</html>
